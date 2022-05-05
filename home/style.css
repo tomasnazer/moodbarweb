@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+main {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moodLogo {
+    width: 96px;
+    height: 96px;
+}
+
+h4 {
+    color: white;
+    margin-top: 10px;
+}
+
+.info {
+    color: rgb(155, 149, 149);
+    margin-top: 4px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.menuscontainer {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.foodmenu, .drinksmenu, .nightmenu {
+    color: white;
+    background-color: rgb(39, 38, 38);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+    padding-top: 15px;
+    min-width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-style:solid black;
+    border-radius: 15px;
+}
+
+a {
+    background-color: rgb(39, 38, 38);
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
